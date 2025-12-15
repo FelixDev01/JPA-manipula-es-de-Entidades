@@ -3,7 +3,7 @@ package com.jpa.manipulando.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tb_people")
+@Table(name = "tb_person")
 public class Person {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
